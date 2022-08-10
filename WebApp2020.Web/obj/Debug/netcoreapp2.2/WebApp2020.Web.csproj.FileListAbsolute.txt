@@ -1,0 +1,81 @@
+F:\UWTSD\Modules\L5 - Application Development - Web\2019-2020\Projects\Testing\WebApp2020\WebApp2020.Web\bin\Debug\netcoreapp2.2\WebApp2020.Web.deps.json
+F:\UWTSD\Modules\L5 - Application Development - Web\2019-2020\Projects\Testing\WebApp2020\WebApp2020.Web\bin\Debug\netcoreapp2.2\WebApp2020.Web.runtimeconfig.json
+F:\UWTSD\Modules\L5 - Application Development - Web\2019-2020\Projects\Testing\WebApp2020\WebApp2020.Web\bin\Debug\netcoreapp2.2\WebApp2020.Web.runtimeconfig.dev.json
+F:\UWTSD\Modules\L5 - Application Development - Web\2019-2020\Projects\Testing\WebApp2020\WebApp2020.Web\bin\Debug\netcoreapp2.2\WebApp2020.Web.dll
+F:\UWTSD\Modules\L5 - Application Development - Web\2019-2020\Projects\Testing\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\WebApp2020.Web.csprojAssemblyReference.cache
+F:\UWTSD\Modules\L5 - Application Development - Web\2019-2020\Projects\Testing\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\WebApp2020.Web.csproj.CoreCompileInputs.cache
+F:\UWTSD\Modules\L5 - Application Development - Web\2019-2020\Projects\Testing\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\WebApp2020.Web.RazorAssemblyInfo.cache
+F:\UWTSD\Modules\L5 - Application Development - Web\2019-2020\Projects\Testing\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\WebApp2020.Web.RazorAssemblyInfo.cs
+F:\UWTSD\Modules\L5 - Application Development - Web\2019-2020\Projects\Testing\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\WebApp2020.Web.AssemblyInfoInputs.cache
+F:\UWTSD\Modules\L5 - Application Development - Web\2019-2020\Projects\Testing\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\WebApp2020.Web.AssemblyInfo.cs
+F:\UWTSD\Modules\L5 - Application Development - Web\2019-2020\Projects\Testing\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\WebApp2020.Web.TagHelpers.input.cache
+F:\UWTSD\Modules\L5 - Application Development - Web\2019-2020\Projects\Testing\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\WebApp2020.Web.TagHelpers.output.cache
+F:\UWTSD\Modules\L5 - Application Development - Web\2019-2020\Projects\Testing\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\WebApp2020.Web.RazorCoreGenerate.cache
+F:\UWTSD\Modules\L5 - Application Development - Web\2019-2020\Projects\Testing\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+F:\UWTSD\Modules\L5 - Application Development - Web\2019-2020\Projects\Testing\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+F:\UWTSD\Modules\L5 - Application Development - Web\2019-2020\Projects\Testing\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+F:\UWTSD\Modules\L5 - Application Development - Web\2019-2020\Projects\Testing\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+F:\UWTSD\Modules\L5 - Application Development - Web\2019-2020\Projects\Testing\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+F:\UWTSD\Modules\L5 - Application Development - Web\2019-2020\Projects\Testing\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+F:\UWTSD\Modules\L5 - Application Development - Web\2019-2020\Projects\Testing\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+F:\UWTSD\Modules\L5 - Application Development - Web\2019-2020\Projects\Testing\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+F:\UWTSD\Modules\L5 - Application Development - Web\2019-2020\Projects\Testing\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+F:\UWTSD\Modules\L5 - Application Development - Web\2019-2020\Projects\Testing\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+F:\UWTSD\Modules\L5 - Application Development - Web\2019-2020\Projects\Testing\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\WebApp2020.Web.RazorTargetAssemblyInfo.cache
+F:\UWTSD\Modules\L5 - Application Development - Web\2019-2020\Projects\Testing\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\WebApp2020.Web.RazorTargetAssemblyInfo.cs
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\bin\Debug\netcoreapp2.2\WebApp2020.Web.deps.json
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\bin\Debug\netcoreapp2.2\WebApp2020.Web.runtimeconfig.json
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\bin\Debug\netcoreapp2.2\WebApp2020.Web.runtimeconfig.dev.json
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\bin\Debug\netcoreapp2.2\WebApp2020.Web.dll
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\bin\Debug\netcoreapp2.2\WebApp2020.Web.pdb
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\bin\Debug\netcoreapp2.2\WebApp2020.Web.Views.dll
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\bin\Debug\netcoreapp2.2\WebApp2020.Web.Views.pdb
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\bin\Debug\netcoreapp2.2\WebApp2020.Shared.dll
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\bin\Debug\netcoreapp2.2\WebApp2020.Shared.pdb
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\WebApp2020.Web.csprojAssemblyReference.cache
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\WebApp2020.Web.csproj.CoreCompileInputs.cache
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\WebApp2020.Web.RazorAssemblyInfo.cache
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\WebApp2020.Web.RazorAssemblyInfo.cs
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\WebApp2020.Web.AssemblyInfoInputs.cache
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\WebApp2020.Web.AssemblyInfo.cs
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\WebApp2020.Web.TagHelpers.input.cache
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\WebApp2020.Web.TagHelpers.output.cache
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\WebApp2020.Web.RazorCoreGenerate.cache
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\WebApp2020.Web.RazorTargetAssemblyInfo.cache
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\WebApp2020.Web.RazorTargetAssemblyInfo.cs
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\WebApp2020.Web.Views.pdb
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\WebApp2020.Web.csproj.CopyComplete
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\WebApp2020.Web.dll
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\WebApp2020.Web.pdb
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\Razor\Views\Home\Attributions.g.cshtml.cs
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\Razor\Views\ProductDetails\Create.g.cshtml.cs
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\Razor\Views\ProductDetails\Delete.g.cshtml.cs
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\Razor\Views\ProductDetails\Details.g.cshtml.cs
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\Razor\Views\ProductDetails\Edit.g.cshtml.cs
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\Razor\Views\ProductDetails\Index.g.cshtml.cs
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\Razor\Views\ProductDetails\_ProductDetails.g.cshtml.cs
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\Razor\Views\ProductDetails\_Search.g.cshtml.cs
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\Razor\Views\ProductDetails\_Paging.g.cshtml.cs
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ExternalLogin.g.cshtml.cs
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\Index.g.cshtml.cs
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.g.cshtml.cs
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.g.cshtml.cs
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Register.g.cshtml.cs
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\_ViewImports.g.cshtml.cs
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\Razor\Views\OrderDetails\Create.g.cshtml.cs
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\Razor\Views\OrderDetails\Delete.g.cshtml.cs
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\Razor\Views\OrderDetails\Details.g.cshtml.cs
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\Razor\Views\OrderDetails\Edit.g.cshtml.cs
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Web\obj\Debug\netcoreapp2.2\Razor\Views\OrderDetails\Index.g.cshtml.cs

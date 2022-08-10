@@ -1,0 +1,13 @@
+﻿1. Locate the WebApp2020.Web project
+
+2. Locate the appsettings.json file and open it.
+
+3. Locate the ConnectionStrings and replace with the following
+
+			"DefaultConnection": "Server=(localdb)\\ProjectsV13;Database=WebApp2020;AttachDBFileName=C:\\...\\WebApp2020.Shared\\Data\\WebApp2020.mdf;Trusted_Connection=True;MultipleActiveResultSets=true"
+
+
+4. Replace C:\\... with the folder path to the solution folder's path
+
+5. Save and close the file
+

@@ -1,0 +1,25 @@
+﻿@using WebApp2020.Shared.Enums;
+
+@model WebApp2020.Shared.ViewModels.ProductsFilterViewModel;
+
+<form class="form-inline" asp-controller="Films" asp-action="Index" method="post">
+	<div class="col-12 col-sm-6 col-md-3 align-items-start">
+		<label class="control-label justify-content-start" asp-for="FilterField"></label>
+		<select asp-for="FilterField" name="FilterField" asp-items="Html.GetEnumSelectList<ProductFilterColumns>()" class="form-control"></select>
+	</div>
+	<div class="col">
+		<label class="control-label justify-content-start" asp-for="FilterSearchString"></label>
+		<input type="text" name="FilterSearchString" asp-for="FilterSearchString" class="form-control" />
+	</div>
+	<div class="col-12 col-sm-6 col-md-3">
+		<label class="control-label justify-content-start" asp-for="SortBy"></label>
+		<select asp-for="SortBy" name="SortBy" class="form-control" asp-items="Html.GetEnumSelectList<ProductSortOptions>()"></select>
+	</div>
+	<div class="col-12 col-sm-6 col-md-3">
+		<button type="submit" class="btn btn-primary mt-3">Search</button>
+	</div>
+	<div class="form-group row">
+	</div>
+	<input type="hidden" name="PageSize" asp-for="PageSize" />
+	<input type="hidden" name="PageNumber" asp-for="PageNumber" />
+</form>

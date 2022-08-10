@@ -1,0 +1,9 @@
+﻿DROP TABLE Colour;
+DROP TABLE RangeType;
+DROP TABLE BagType;
+DROP TABLE ProductDetails;
+DROP TABLE PaymentType;
+DROP TABLE OrderDetails;
+DROP TABLE ProductOrderDetails;
+DROP TABLE Addresses;
+DROP TABLE CustomerAddresses;

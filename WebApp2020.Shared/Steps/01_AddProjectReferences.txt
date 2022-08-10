@@ -1,0 +1,12 @@
+﻿Step 1: Add Project References
+
+	Right-click on the WebApp2020.Api Project and select Add --> Reference
+	Select the Projects tab
+	Check the box beside the WebApp2020.Shared Project
+	Click OK
+
+	
+	Right-click on the WebApp2020.Web Project and select Add --> Reference
+	Select the Projects tab
+	Check the box beside the WebApp2020.Shared Project
+	Click OK

@@ -1,0 +1,83 @@
+﻿@using WebApp2020.Shared.Enums;
+
+@model WebApp2020.Shared.ViewModels.ProductsFilterViewModel;
+
+<form asp-controller="Films" asp-action="Index" method="post">
+	<div class="form-row">
+		<div class="col-12">
+			<div class="form-group">
+				<label class="">Number Records:</label>
+				@Model.RecordCount
+			</div>
+		</div>
+	</div>
+	<div class="form-row">
+		<div class="col-12 col-md-8">
+
+			@* Hidden Fields *@
+			<input type="hidden" name="FilterField" asp-for="FilterField" />
+			<input type="hidden" name="FilterSearchString" asp-for="FilterSearchString" />
+			<input type="hidden" name="SortBy" asp-for="SortBy" />
+
+			<nav aria-label="Films' page navigation" class="form-group justify-content-start">
+				<label class="" for="">Pages</label>
+				<ul class="pagination">
+
+					@* TODO: Previous page, only show if current Page Number is greater than 1 *@
+
+					@* BEGIN IF BLOCK *@
+					@if (Model.PageNumber > 1)
+					{
+						<li class="page-item">
+							<button type="submit" class="page-link" name="PageNumber" asp-for="PageNumber" value="@(Model.PageNumber - 1)">Previous</button>
+						</li>
+					}
+					@* END IF BLOCK *@
+
+
+					@* TODO: Loop through each of the page numbers available (Pages property) and create a button link for them *@
+					@* Set the active class to the current Page Number *@
+
+
+					@* BEGIN FOR LOOP *@
+					@foreach (var pageNo in Model.Pages)
+					{
+						@* Initially set the active class to a blank empty string *@
+						@* If the looping variable (pageNo) is the same as the current page number, set the active class *@
+						string activeClass = "";
+						if (pageNo == Model.PageNumber) { activeClass = "Active"; }
+						<li class="page-item @(activeClass)">
+							<button type="submit" class="page-link" name="PageNumber" asp-for="PageNumber" value="@(pageNo)">@pageNo</button>
+						</li>
+					}
+					@* END FOR LOOP *@
+
+
+
+					@* TODO: Next page, only show if current Page Number is less than the total number of pages (Page count property) *@
+
+					@* BEGIN IF BLOCK *@
+					@if (Model.PageNumber < 1)
+					{
+						<li class="page-item">
+							<button type="submit" class="page-link" name="PageNumber" asp-for="PageNumber" value="@(Model.PageNumber + 1)">Next</button>
+						</li>
+					}
+					@* END IF BLOCK *@
+
+				</ul>
+			</nav>
+		</div>
+		<div class="col-12 col-md-2">
+			<div class="form-group">
+				<label class="" for="PageSize" asp-for="PageSize"></label>
+				<select id="PageSize" asp-for="PageSize" name="PageSize" class="form-control" asp-items="Model.PageSizes.Select(x => new SelectListItem(x.ToString(), x.ToString()))"></select>
+			</div>
+		</div>
+		<div class="col-12 col-md-2 d-flex align-items-center">
+
+			<button type="submit" class="btn btn-primary align-bottom mt-md-3" name="PageSize" asp-for="PageSize" value="@Model.PageNumber">Go</button>
+		</div>
+	</div>
+
+</form>

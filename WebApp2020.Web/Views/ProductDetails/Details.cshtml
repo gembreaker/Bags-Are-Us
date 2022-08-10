@@ -1,0 +1,112 @@
+﻿@model WebApp2020.Shared.Models.ProductDetails
+
+@using Microsoft.AspNetCore.Authorization
+@inject IAuthorizationService AuthorisationService
+
+@{
+	ViewData["Title"] = "Details";
+}
+
+<div>
+	<hr />
+	<div class="row">
+		<h1 class="col-12 col-md-10">
+			@Html.DisplayFor(model => model.ProductName)
+		</h1>
+	</div>
+	<hr />
+	<div class="row">
+		<div class="col-12 col-md-8 col-lg-4 mb-2">
+			<img src="@Url.Content($"~/Images/{@Model.ProductImage}")" class="img-fluid" style="height: 300px;" alt="@Html.DisplayFor(model => model.ProductName) Product Image" />
+		</div>
+		<div class="col-6 col-sm-6 col-lg-2 order-lg-3">
+			<dl class="row" style="background-color: #c6f1f5;">
+				<dt class="col-sm-10">
+					@Html.DisplayNameFor(model => model.BagType)
+				</dt>
+				<dd class="col-sm-10">
+					@Html.DisplayFor(model => model.BagType.BagType1)
+				</dd>
+				<dt class="col-sm-10">
+					@Html.DisplayNameFor(model => model.Colour)
+				</dt>
+				<dd class="col-sm-10">
+					@Html.DisplayFor(model => model.Colour.ColourName)
+				</dd>
+				<dt class="col-sm-10">
+					@Html.DisplayNameFor(model => model.Range)
+				</dt>
+				<dd class="col-sm-10">
+					@Html.DisplayFor(model => model.Range.RangeName)
+				</dd>
+			</dl>
+		</div>
+		<div class="col-12 col-sm-6 order-lg-2">
+			<div>
+				<h4>@Html.DisplayFor(model => model.Price)</h4>
+				<p>@Html.DisplayFor(model => model.Description)</p>
+				<br />
+				<p class="text-center">
+					<a class="btn btn-warning" asp-controller="OrderDetails" asp-action="Create" asp-route-ProductCode="@Model.ProductCode">Buy now</a>
+				</p>
+				<br />
+				<p>Eligible for free UK delivery.</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+@*<dl class="row">
+		<dt class="col-sm-2">
+			@Html.DisplayNameFor(model => model.ProductName)
+		</dt>
+		<dd class="col-sm-10">
+			@Html.DisplayFor(model => model.ProductName)
+		</dd>
+		<dt class="col-sm-2">
+			@Html.DisplayNameFor(model => model.Description)
+		</dt>
+		<dd class="col-sm-10">
+			@Html.DisplayFor(model => model.Description)
+		</dd>
+		<dt class="col-sm-2">
+			@Html.DisplayNameFor(model => model.ProductImage)
+		</dt>
+		<dd class="col-sm-10">
+			@Html.DisplayFor(model => model.ProductImage)
+		</dd>
+		<dt class="col-sm-2">
+			@Html.DisplayNameFor(model => model.Price)
+		</dt>
+		<dd class="col-sm-10">
+			@Html.DisplayFor(model => model.Price)
+		</dd>
+		<dt class="col-sm-2">
+			@Html.DisplayNameFor(model => model.BagType)
+		</dt>
+		<dd class="col-sm-10">
+			@Html.DisplayFor(model => model.BagType.BagType1)
+		</dd>
+		<dt class="col-sm-2">
+			@Html.DisplayNameFor(model => model.Colour)
+		</dt>
+		<dd class="col-sm-10">
+			@Html.DisplayFor(model => model.Colour.ColourName)
+		</dd>
+		<dt class="col-sm-2">
+			@Html.DisplayNameFor(model => model.Range)
+		</dt>
+		<dd class="col-sm-10">
+			@Html.DisplayFor(model => model.Range.RangeName)
+		</dd>
+	</dl>*@
+
+<div>
+	@if ((await AuthorisationService.AuthorizeAsync(User, "IsAdmin")).Succeeded)
+	{
+		<a asp-action="Create">Create</a> <text>|</text>
+		<a asp-action="Edit" asp-route-id="@Model.ProductCode">Edit</a> <text>|</text>
+		<a asp-action="Delete" asp-route-id="@Model.ProductCode">Delete</a> <text>|</text>
+	}
+	<a asp-action="Index">Back to List</a>
+</div>

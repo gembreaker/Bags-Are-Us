@@ -1,0 +1,19 @@
+﻿IMPORTANT: The following steps are for the WebApp2020.Web Project.
+
+1. Go to the WebApp2020.Web Project and locate the StartUp.cs file and Open it.
+
+2. Add the following at the top of the file (after the other using statements) to import the Model classes
+
+		using WebApp2020.Shared.Models;
+
+3. Do a Find and Replace as follows:
+
+		FIND: ApplicationDbContext
+
+		REPLACE WITH: WebApp2020DbContext
+
+4. Save your changes.
+
+5. Locate the WebApp2020.Web Project in the Solution Explorer Window (usually on the right-side). Right-click on the project and click 'Set as StartUp Project'.
+
+6. Click the little Play button to test your project. Be patient, it will take a while to build the project - especially the first time.

@@ -1,0 +1,34 @@
+﻿1. Go to the WebApp2020.Web Project and locate the Controllers folder
+
+2. Right-click on the Controllers folder and select Add --> New Scaffolded Item...
+
+3. Select the option: MVC Controller with views, using Entity Framework 
+		Click the Add button.
+
+4. In the next window, select the following options.
+	
+		Model class:		...
+
+		Data context class:	WebApp2020DbContext (WebApp2020.Shared.Models)
+
+5. Leave the other defaults
+
+6. Add the Add button.
+
+7. This will generate the Controller and Views files.
+
+8. Go to the WebApp2020.Web Project and locate the Views folder, expand it and expand the Shared folder. Open up the _Layout.cshtml file in this folder
+
+9. Scroll down the page and locate the <header><nav>...</nav></header> section. 
+
+10. Create a link to the ... Controller index view that has just been created after the Home index link by adding the following:
+
+		
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="..." asp-action="Index">...</a>
+                </li>
+
+11. Save your changes and test your application.
+
+12. Click on the Films link. You can access all the CRUD views (Add, Index, Update & Delete links) from here.
+		What is wrong with the views?

@@ -1,0 +1,40 @@
+﻿There are a number of options available
+
+1. Change the default Home Controller's Index View
+
+		a. In the .Web project, locate the Views --> Home folder
+
+		b. Open up the Index.cshtml view
+
+		c. Customise as you wish
+
+2. Change the default MVC route i.e. the default controller and action to load on startup
+
+		a. In the .Web project, locate the Startup.cs file (it is in the main project folder, not a subfolder)
+
+		b. Open the Startup.cs file
+
+		c. Locate the Configure method (usually the last method)
+
+		d. Locate the following block of code:		app.UseMvc(routes => { ... });
+
+				Change this line from:
+					
+					template: "{controller=Home}/{action=Index}/{id?}");
+
+				To (i.e. change the default controller to the the controller you want to make the default, leave the default action as Index unless you want to make another action method the default):
+
+					template: "{controller=...}/{action=Index}/{id?}");
+
+		e. You should also change the logo (brand name link) in the _Layout.cshtml file in the Views --> Shared  folder. You may also want to delete the Home link completely or change it to something else.
+
+3. Change the content of the Home Controller's Index action method
+
+		a. In the .Web project, locate the Controllers folder
+
+		b. Open up the HomeController.cs controller file
+
+		c. Locate the Index method
+		
+		d. Customise as you wish e.g. to retrieve some data you wish to display on the home page from the database
+

@@ -1,0 +1,28 @@
+F:\UWTSD\Modules\L5 - Application Development - Web\2019-2020\Projects\Testing\WebApp2020\WebApp2020.Api\bin\Debug\netcoreapp2.2\WebApp2020.Api.deps.json
+F:\UWTSD\Modules\L5 - Application Development - Web\2019-2020\Projects\Testing\WebApp2020\WebApp2020.Api\bin\Debug\netcoreapp2.2\WebApp2020.Api.runtimeconfig.json
+F:\UWTSD\Modules\L5 - Application Development - Web\2019-2020\Projects\Testing\WebApp2020\WebApp2020.Api\bin\Debug\netcoreapp2.2\WebApp2020.Api.runtimeconfig.dev.json
+F:\UWTSD\Modules\L5 - Application Development - Web\2019-2020\Projects\Testing\WebApp2020\WebApp2020.Api\bin\Debug\netcoreapp2.2\WebApp2020.Api.dll
+F:\UWTSD\Modules\L5 - Application Development - Web\2019-2020\Projects\Testing\WebApp2020\WebApp2020.Api\obj\Debug\netcoreapp2.2\WebApp2020.Api.csprojAssemblyReference.cache
+F:\UWTSD\Modules\L5 - Application Development - Web\2019-2020\Projects\Testing\WebApp2020\WebApp2020.Api\obj\Debug\netcoreapp2.2\WebApp2020.Api.csproj.CoreCompileInputs.cache
+F:\UWTSD\Modules\L5 - Application Development - Web\2019-2020\Projects\Testing\WebApp2020\WebApp2020.Api\obj\Debug\netcoreapp2.2\WebApp2020.Api.RazorAssemblyInfo.cache
+F:\UWTSD\Modules\L5 - Application Development - Web\2019-2020\Projects\Testing\WebApp2020\WebApp2020.Api\obj\Debug\netcoreapp2.2\WebApp2020.Api.RazorAssemblyInfo.cs
+F:\UWTSD\Modules\L5 - Application Development - Web\2019-2020\Projects\Testing\WebApp2020\WebApp2020.Api\obj\Debug\netcoreapp2.2\WebApp2020.Api.AssemblyInfoInputs.cache
+F:\UWTSD\Modules\L5 - Application Development - Web\2019-2020\Projects\Testing\WebApp2020\WebApp2020.Api\obj\Debug\netcoreapp2.2\WebApp2020.Api.AssemblyInfo.cs
+F:\UWTSD\Modules\L5 - Application Development - Web\2019-2020\Projects\Testing\WebApp2020\WebApp2020.Api\obj\Debug\netcoreapp2.2\WebApp2020.Api.RazorTargetAssemblyInfo.cache
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Api\bin\Debug\netcoreapp2.2\WebApp2020.Api.deps.json
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Api\bin\Debug\netcoreapp2.2\WebApp2020.Api.runtimeconfig.json
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Api\bin\Debug\netcoreapp2.2\WebApp2020.Api.runtimeconfig.dev.json
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Api\bin\Debug\netcoreapp2.2\WebApp2020.Api.dll
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Api\bin\Debug\netcoreapp2.2\WebApp2020.Api.pdb
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Api\bin\Debug\netcoreapp2.2\WebApp2020.Shared.dll
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Api\bin\Debug\netcoreapp2.2\WebApp2020.Shared.pdb
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Api\obj\Debug\netcoreapp2.2\WebApp2020.Api.csprojAssemblyReference.cache
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Api\obj\Debug\netcoreapp2.2\WebApp2020.Api.csproj.CoreCompileInputs.cache
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Api\obj\Debug\netcoreapp2.2\WebApp2020.Api.RazorAssemblyInfo.cache
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Api\obj\Debug\netcoreapp2.2\WebApp2020.Api.RazorAssemblyInfo.cs
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Api\obj\Debug\netcoreapp2.2\WebApp2020.Api.AssemblyInfoInputs.cache
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Api\obj\Debug\netcoreapp2.2\WebApp2020.Api.AssemblyInfo.cs
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Api\obj\Debug\netcoreapp2.2\WebApp2020.Api.RazorTargetAssemblyInfo.cache
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Api\obj\Debug\netcoreapp2.2\WebApp2020.Api.csproj.CopyComplete
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Api\obj\Debug\netcoreapp2.2\WebApp2020.Api.dll
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Api\obj\Debug\netcoreapp2.2\WebApp2020.Api.pdb

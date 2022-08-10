@@ -1,0 +1,13 @@
+﻿Scaffold DbContext and Model Classes to the Models folder
+This step will create the Model classes and DbContext (class used by ASP.NET to connect to the database) files
+
+
+1. In VS, from the main menu go to Tools --> NuGet Package Manager --> Package Manager Console
+
+2. In the window that opens (towards the bottom of the main window), copy and paste the following at the PM prompt:
+
+		Scaffold-DbContext "Server=(localdb)\ProjectsV13;Database=WebApp2020;Trusted_Connection=True;MultipleActiveResultSets=true" Microsoft.EntityFrameworkCore.SqlServer -StartupProject WebApp2020.Web -Project WebApp2020.Shared -OutputDir Models -Context WebApp2020DbContext
+
+3. Press the Enter key and be patient
+
+4. Once done you should see the new files generated in the WebApp2020.Shared\Models folder.

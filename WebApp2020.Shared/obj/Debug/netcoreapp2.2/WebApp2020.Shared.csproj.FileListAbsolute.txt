@@ -1,0 +1,19 @@
+F:\UWTSD\Modules\L5 - Application Development - Web\2019-2020\Projects\Testing\WebApp2020\WebApp2020.Shared\bin\Debug\netcoreapp2.2\WebApp2020.Shared.deps.json
+F:\UWTSD\Modules\L5 - Application Development - Web\2019-2020\Projects\Testing\WebApp2020\WebApp2020.Shared\bin\Debug\netcoreapp2.2\WebApp2020.Shared.dll
+F:\UWTSD\Modules\L5 - Application Development - Web\2019-2020\Projects\Testing\WebApp2020\WebApp2020.Shared\obj\Debug\netcoreapp2.2\WebApp2020.Shared.csproj.CoreCompileInputs.cache
+F:\UWTSD\Modules\L5 - Application Development - Web\2019-2020\Projects\Testing\WebApp2020\WebApp2020.Shared\obj\Debug\netcoreapp2.2\WebApp2020.Shared.AssemblyInfoInputs.cache
+F:\UWTSD\Modules\L5 - Application Development - Web\2019-2020\Projects\Testing\WebApp2020\WebApp2020.Shared\obj\Debug\netcoreapp2.2\WebApp2020.Shared.AssemblyInfo.cs
+F:\UWTSD\Modules\L5 - Application Development - Web\2019-2020\Projects\Testing\WebApp2020\WebApp2020.Shared\obj\Debug\netcoreapp2.2\WebApp2020.Shared.csprojAssemblyReference.cache
+F:\UWTSD\Modules\L5 - Application Development - Web\2019-2020\Projects\Testing\WebApp2020\WebApp2020.Shared\bin\Debug\netcoreapp2.2\WebApp2020.Shared.runtimeconfig.json
+F:\UWTSD\Modules\L5 - Application Development - Web\2019-2020\Projects\Testing\WebApp2020\WebApp2020.Shared\bin\Debug\netcoreapp2.2\WebApp2020.Shared.runtimeconfig.dev.json
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Shared\bin\Debug\netcoreapp2.2\WebApp2020.Shared.deps.json
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Shared\bin\Debug\netcoreapp2.2\WebApp2020.Shared.runtimeconfig.json
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Shared\bin\Debug\netcoreapp2.2\WebApp2020.Shared.runtimeconfig.dev.json
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Shared\bin\Debug\netcoreapp2.2\WebApp2020.Shared.dll
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Shared\bin\Debug\netcoreapp2.2\WebApp2020.Shared.pdb
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Shared\obj\Debug\netcoreapp2.2\WebApp2020.Shared.csprojAssemblyReference.cache
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Shared\obj\Debug\netcoreapp2.2\WebApp2020.Shared.csproj.CoreCompileInputs.cache
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Shared\obj\Debug\netcoreapp2.2\WebApp2020.Shared.AssemblyInfoInputs.cache
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Shared\obj\Debug\netcoreapp2.2\WebApp2020.Shared.AssemblyInfo.cs
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Shared\obj\Debug\netcoreapp2.2\WebApp2020.Shared.dll
+E:\Uni\Year 2\Semester 2\Application Development\AssignmentProject\WebApp2020\WebApp2020\WebApp2020.Shared\obj\Debug\netcoreapp2.2\WebApp2020.Shared.pdb

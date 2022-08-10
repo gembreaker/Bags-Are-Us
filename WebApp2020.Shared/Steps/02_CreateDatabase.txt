@@ -1,0 +1,17 @@
+﻿1. From the main menu in VS, go to View --> SQL Server Object Explorer
+
+		Locate the (localdb)\ProjectsV13 server
+
+		Right-click on the (localdb)\ProjectsV13 server and select New Query...
+
+
+2. Run your Sql queries in the SqlQueries folder (in the order specified):
+
+	IMPORTANT: Make sure you are connected to the right database
+			When you open each Sql file, right-click on file and select Connection --> Connect...
+			Expand Local, select ProjectsV13
+			Specify the Database Name in the lower screen:  WebApp2020
+					
+
+
+	

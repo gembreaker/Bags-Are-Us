@@ -1,0 +1,57 @@
+﻿NOTE: If you want to create relationships with the ASP.NET Identity user table, you need to update your model classes with these relationships.
+
+For example, in the Go Movies database, the Booking table has a relationship with the user table (YOUR ASSIGNEMENT DATABASE IS LIKELY TO HAVE A DIFFERENT STRUCTURE):
+		PK: AspNetUsers table (Id column)
+		FK: Booking table (CustomerUserId column)
+
+
+1. Open up the Bookings.cs class in the WebApp2020.Shared\Models folder
+
+2. Add the following at the top of the file (after the other using statements) to import the Identity and data annotations libraries
+
+		using System.ComponentModel.DataAnnotations;
+		using System.ComponentModel.DataAnnotations.Schema;
+		using Microsoft.AspNetCore.Identity;
+
+3. Add the following FK property after the other properties in the class
+
+		[ForeignKey("CustomerUserId")]
+        public IdentityUser User { get; set; }
+
+4. Save the changes.
+
+5. In VS, from the main menu go to Tools --> NuGet Package Manager --> Package Manager Console
+
+6. In the window that opens (towards the bottom of the main window), copy and paste the following at the PM prompt:
+
+		add-migration AddFK_OrderDetailsCustomerId -StartupProject WebApp2020.Web -Project WebApp2020.Shared -Context WebApp2020.Shared.Models.WebApp2020DbContext
+
+7. Press the Enter key and be patient. Once done you should see the following message at the prompt: To undo this action, use Remove-Migration.
+
+8. The previous command generates a migration file and this should be open. You do NOT need to do anything to this file.
+
+9. Go back to the Package Manager Console Prompt. Copy and paste the following at the PM prompt:
+
+		update-database -StartupProject WebApp2020.Web -Project WebApp2020.Shared -Context WebApp2020.Shared.Models.WebApp2020DbContext
+
+10. Press the Enter key and be patient. This will know apply the changes to the database. Once done you should see the following message at the prompt: Done.
+
+11. You can check if the FK has been added to the database by:
+
+		From the main menu in VS, go to View --> SQL Server Object Explorer
+
+		Expand the (localdb)\ProjectsV13 server and locate your database
+
+		Locate the Booking table, right-click on the Tables and click Refresh.
+		
+		Expand the Booking table. Expand the Keys folder and you should see the FK_Booking_AspNetUsers_CustomerUserID
+
+12. One last step. Open up the WebApp2020DbContext file in the WebApp2020.Shared\Models folder.
+
+13. Locate the protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) method.
+
+		COMMENT OUT the entire method
+
+		Save the file
+
+13. You can close all the files.

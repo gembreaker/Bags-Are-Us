@@ -1,0 +1,63 @@
+﻿This step will Scaffold ASP.NET Identity i.e. create the Model classes and database tables for ASP.NET Identity (API that supports login functionality)
+See more: https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity
+
+1. Open up the WebApp2020DbContext file in the WebApp2020.Shared\Models folder
+
+2. Add the following at the top of the file (after the other using statements) to import the Identity library
+
+		using Microsoft.AspNetCore.Identity;
+		using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+
+3. Replace the folllowing class definition line 
+			public partial class WebApp2020DbContext : DbContext
+	
+	with the following
+
+			public partial class WebApp2020DbContext : IdentityDbContext<IdentityUser>
+
+4. Locate the protected override void OnModelCreating (ModelBuilder modelBuilder) method 
+
+5. Add the following at the start of the method before the other code in the method (make it the first statements)
+
+			// https://stackoverflow.com/questions/39798317/identityuserloginstring-requires-a-primary-key-to-be-defined-error-while-addi
+            base.OnModelCreating(modelBuilder);
+
+5. In VS, from the main menu go to Tools --> NuGet Package Manager --> Package Manager Console
+
+6. In the window that opens (towards the bottom of the main window), copy and paste the following at the PM prompt:
+
+		add-migration Scaffold-AspNetIdentity -StartupProject WebApp2020.Web -Project WebApp2020.Shared -Context WebApp2020.Shared.Models.WebApp2020DbContext
+
+7. Press the Enter key and be patient. Once done you should see the following message at the prompt: To undo this action, use Remove-Migration.
+
+8. The previous command generates a migration file and this should be open. Go to the file.
+
+		The file includes commands to create all the tables in the database but we don't want it to recreate our existing tables.
+
+		IMPORTANT: comment out the blocks of code, i.e. migrationBuilder.CreateTable(...), to create the following tables:
+			AgeRating
+			Booking
+			BookingTicket
+			Film
+			FilmShowing
+			TicketType
+
+		ALSO: comment out the blocks of code to create indexes on the tables above, i.e. migrationBuilder.CreateIndex(...)
+
+9. Save the file.
+
+
+10. Go back to the Package Manager Console Prompt. Copy and paste the following at the PM prompt:
+
+		update-database -StartupProject WebApp2020.Web -Project WebApp2020.Shared -Context WebApp2020.Shared.Models.WebApp2020DbContext
+
+11. Press the Enter key and be patient. This will know apply the changes to the database. Once done you should see the following message at the prompt: Done.
+
+12. You can check if the ASP.NET Identity tables have been added to the database by:
+		
+		From the main menu in VS, go to View --> SQL Server Object Explorer
+
+		Expand the (localdb)\ProjectsV13 server and locate your database
+
+		Right-click on the Tables and click Refresh. You should see the new AspNetUser tables.
+

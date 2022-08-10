@@ -1,0 +1,45 @@
+﻿@using WebApp2020.Shared.ViewModels;
+
+@using Microsoft.AspNetCore.Authorization
+@inject IAuthorizationService AuthorisationService
+
+<div class="row">
+	<div class="col mb-3">
+		@* Convert the ProductsFilter additional data sent to the view to the FilmFilteViewModel type
+			and store in variable productsFilter so the partial view can understand it.  *@
+		@{ ProductsFilterViewModel productsFilter = (ProductsFilterViewModel)ViewData["ProductsFilter"]; }
+
+		@* TODO Display the partial view *@
+		<partial name="_Search" model="productsFilter" />
+	</div>
+</div>
+
+@model IEnumerable<WebApp2020.Shared.Models.ProductDetails>
+
+@{
+	ViewData["Title"] = "Bags";
+}
+
+<h1>Bags</h1>
+
+@if ((await AuthorisationService.AuthorizeAsync(User, "IsAdmin")).Succeeded)
+{
+	<p>
+		<a asp-action="Create">Create New</a>
+	</p>
+}
+
+<div class="row">
+	@foreach (var item in Model)
+	{
+		<partial name="_ProductDetails" for="@item" />
+	}
+</div>
+
+	
+<div class="row">
+	<div class="col mb-3">
+		@* TODO Display the partial view *@
+		<partial name="_Paging" model="productsFilter" />
+	</div>
+</div>

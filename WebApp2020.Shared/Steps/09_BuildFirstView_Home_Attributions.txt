@@ -1,0 +1,48 @@
+﻿1. Go to the WebApp2020.Web Project
+
+2. Locate the Views folder, expand it and locate the Home folder. 
+
+3. Right-click on the Home folder and select Add --> View...
+
+4. Specify the following in the dialog box:
+	
+		View name:	Attributions
+
+		Template:	Empty (without model)
+
+5. Add your attributions content after the <h1>...</h1> tag
+
+		<div class="row">
+			<div class="col-12">
+				<p>All movie poster images, trailers and text taken from the following sources:</p>
+				<ul>
+					<li><a href="#" target="_blank">...</a></li>
+					<li><a href="#" target="_blank">...</a></li>
+					<li><a href="#" target="_blank">...</a></li>
+					<li><a href="#" target="_blank">...</a></li>
+				</ul>
+			</div>
+		</div>
+
+6. Save your changes and you can close the file.
+
+7. Locate the Controllers folder, expans it and locate the HomeController and open it.
+
+8. Add the following method to display the Attributions view:
+
+        public IActionResult Attributions()
+        {
+            return View();
+        }
+
+9. Save your changes.
+
+10. Go to the Views --> Shared folder and open up the _Layout file. You will add a link to the Attributions view.
+
+11. Scroll down to about line 40 and locate the menu link for Privacy - add the following to add a link for attributions:
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Attributions">Attributions</a>
+                        </li>
+
+12. Save and test your changes.

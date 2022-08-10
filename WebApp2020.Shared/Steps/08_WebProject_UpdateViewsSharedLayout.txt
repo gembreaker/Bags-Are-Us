@@ -1,0 +1,40 @@
+﻿IMPORTANT: The following steps are for the WebApp2020.Web Project.
+
+1. Go to the WebApp2020.Web Project
+		Locate the Views folder, expand it and expand the Shared folder. 
+		
+		Open up the _Layout.cshtml file in this folder (this file defines the shared layout - header and footer for all pages)
+
+2. Locate the <title> tag towards the top of the page i.e. following line of code (it defines the first part of the title for each page of the web application):
+
+		<title>@ViewData["Title"] - WebApp2020.Web</title>
+
+		Change it as follows (or as you wish) to be more descriptive
+
+			<title>@ViewData["Title"] - Company Name</title>
+
+3. Scroll down the page and locate the <header><nav>...</nav></header> section.
+
+4. Locate the following link for the Logo link
+
+		<a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">WebApp2020.Web</a>
+
+		REPLACE WebApp2020.Web with either:
+			a. your logo image file
+			b. the brand name of your company/application e.g. Company Name
+
+5. Scroll down towards the bottom of the page and locate the <footer> section.
+
+4. Locate the following copyright statement
+
+			&copy; 2020 - WebApp2020.Web - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+
+		REPLACE WebApp2020.Web with the brand name of your company/application e.g. Company Name:
+
+			&copy; 2020 - Compamy Name - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+
+
+5. Save your changes and close the file.
+
+6. Click the little Play button to test your project and see the changes.
+

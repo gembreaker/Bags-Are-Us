@@ -1,0 +1,78 @@
+﻿@model WebApp2020.Shared.Models.ProductDetails
+
+@{
+	ViewData["Title"] = "Edit Product Details";
+}
+
+<h1>Edit</h1>
+
+<h4>Product Details</h4>
+<hr />
+<div class="row">
+	<div class="col-md-4">
+		<form asp-action="Edit" enctype="multipart/form-data">
+			<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+			<input type="hidden" asp-for="ProductCode" />
+			<div class="form-group">
+				<label asp-for="ProductName" class="control-label"></label>
+				<input asp-for="ProductName" class="form-control" />
+				<span asp-validation-for="ProductName" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="Description" class="control-label"></label>
+				<input asp-for="Description" class="form-control" />
+				<span asp-validation-for="Description" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="ColourId" class="control-label"></label>
+				<select asp-for="ColourId" class="form-control" asp-items="ViewBag.ColourId"></select>
+				<span asp-validation-for="ColourId" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="ProductImage" class="control-label"></label>
+				<input asp-for="ProductImage" class="form-control" type="hidden" />
+				<span asp-validation-for="ProductImage" class="text-danger"></span>
+
+				@if (!string.IsNullOrEmpty(Model.ProductImage))
+				{
+					<div>
+						Current <label asp-for="ProductImage" class="control-label"></label>: <span>@Model.ProductImage</span>
+						{<a href="#collapseProductImage" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseProductImage">Click to view</a>}
+						<div class="collapse" id="collapseProductImage">
+							<img src="@Url.Content($"~/Images/{Model.ProductImage}")" class="img-fluid" alt="@Html.DisplayFor(model => model.ProductName) Image" />
+						</div>
+					</div>
+				}
+
+				<input asp-for="ProductImageFile" class="form-control" type="file" />
+				<span asp-validation-for="ProductImageFile" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="Price" class="control-label"></label>
+				<input asp-for="Price" class="form-control" />
+				<span asp-validation-for="Price" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="RangeId" class="control-label"></label>
+				<select asp-for="RangeId" class="form-control" asp-items="ViewBag.RangeId"></select>
+				<span asp-validation-for="RangeId" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="BagTypeId" class="control-label"></label>
+				<select asp-for="BagTypeId" class="form-control" asp-items="ViewBag.BagTypeId"></select>
+				<span asp-validation-for="BagTypeId" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<input type="submit" value="Save" class="btn btn-primary" />
+			</div>
+		</form>
+	</div>
+</div>
+
+<div>
+	<a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts{
+	<script src="~/js/Products.js"></script>
+}

@@ -1,0 +1,40 @@
+﻿@model WebApp2020.Shared.Models.OrderDetails
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Place an Order</h1>
+
+<h4>Order Details</h4>
+<hr />
+<div class="row">
+	<div class="col-6">
+		<partial name="/Views/ProductDetails/_ProductDetails.cshtml" model="@Model.Product" />
+	</div>
+	<div class="col-6">
+		<form asp-action="Create">
+			<input type="hidden" asp-for="CustomerId" />
+			<input type="hidden" asp-for="DateOrdered" />
+			<input type="hidden" asp-for="DatePurchased" />
+			<input type="hidden" asp-for="ProductCode" />
+			<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+			
+			
+			<div class="form-group">
+				<label asp-for="Quantity" class="control-label"></label>
+				<input asp-for="Quantity" class="form-control" />
+				<span asp-validation-for="Quantity" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<input type="submit" value="Create" class="btn btn-primary" />
+			</div>
+		</form>
+	</div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
